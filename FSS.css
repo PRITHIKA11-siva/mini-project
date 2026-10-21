@@ -1,0 +1,154 @@
+/* Food Wastage Management Website */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #26372d;
+  background-color: #f5f5ee;
+}
+
+header {
+  padding: 55px 8%;
+  color: white;
+  background-color: #285a40;
+}
+
+.eyebrow, .section-label, .tag {
+  font-size: 0.75em;
+  font-weight: bold;
+  letter-spacing: 0.12em;
+}
+
+.eyebrow { color: #e0edb3; }
+
+header h1 {
+  margin: 16px 0;
+  font-family: Georgia, serif;
+  font-size: 3.4em;
+  line-height: 1.08;
+}
+
+header h1 span { color: #e0edb3; }
+.intro { max-width: 470px; }
+
+.button {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 11px 17px;
+  border: 0;
+  border-radius: 4px;
+  background-color: #dfedb1;
+  color: #26372d;
+  font: bold 1em Arial, sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 8%;
+  background-color: white;
+  border-bottom: 1px solid #d8dfd5;
+}
+
+.brand {
+  color: #285a40;
+  font-size: 0.85em;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+.nav-links { display: flex; flex-wrap: wrap; gap: 22px; }
+.nav-links a { color: #26372d; text-decoration: none; }
+.nav-links a:hover, footer a:hover { text-decoration: underline; }
+
+main { width: 84%; max-width: 1000px; margin: 0 auto; }
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 65px 0;
+  border-bottom: 1px solid #d8dfd5;
+}
+
+.section-label { flex: 1 1 150px; color: #4c7655; }
+.about > div, .section-heading, .donate-copy { flex: 2 1 250px; }
+
+h2 {
+  margin-top: 0;
+  color: #285a40;
+  font-family: Georgia, serif;
+  font-size: 2.3em;
+  line-height: 1.15;
+}
+
+.about > div > p, .section-heading > p, .donate-copy > p { max-width: 540px; }
+.notice {
+  padding: 12px;
+  background-color: #e8eee0;
+  color: #425648;
+  font-size: 0.9em;
+}
+
+.listings { align-items: flex-start; }
+.section-heading { flex-basis: 200px; }
+
+.listing-list {
+  display: flex;
+  flex: 3 1 400px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.listing {
+  flex: 1 1 220px;
+  padding: 18px;
+  border: 1px solid #d8dfd5;
+  border-radius: 7px;
+  background-color: white;
+}
+
+.tag { color: #64805c; }
+.listing h3 { color: #285a40; }
+.listing-detail { margin: 6px 0; font-size: 0.92em; }
+.donate { align-items: flex-start; }
+.donate form { flex: 3 1 340px; max-width: 600px; }
+
+label { display: block; margin: 12px 0 5px; font-weight: bold; }
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #b9c6b9;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font: inherit;
+}
+
+form .button { background-color: #285a40; color: white; }
+form .button:hover { background-color: #19432d; }
+
+footer {
+  padding: 28px 8%;
+  background-color: #285a40;
+  color: white;
+}
+
+footer .brand { color: #e0edb3; }
+footer p { font-size: 0.9em; }
+
+@media (max-width: 600px) {
+  header { padding: 40px 6%; }
+  header h1 { font-size: 2.6em; }
+  nav { padding: 14px 6%; }
+  .nav-links { gap: 12px; }
+  main { width: 88%; }
+  section { padding: 45px 0; }
+  h2 { font-size: 2em; }
+}
