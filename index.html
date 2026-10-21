@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A student project webpage for sharing surplus food with community organizations.">
+  <title>Share a Plate | Food Wastage Management</title>
+  <link rel="stylesheet" href="FSS.css">
+</head>
+<body>
+  <header id="top">
+    <p class="eyebrow">COMMUNITY FOOD SHARING</p>
+    <h1>Good food should<br><span>find a table.</span></h1>
+    <p class="intro">A simple way to connect surplus food with people and organizations who can use it.</p>
+    <a class="button" href="#donate">List surplus food</a>
+  </header>
+
+  <nav aria-label="Main navigation">
+    <a class="brand" href="#top">SHARE A PLATE</a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#available">Food listings</a>
+      <a href="#donate">Donate food</a>
+    </div>
+  </nav>
+
+  <main>
+    <section id="about" class="about">
+      <p class="section-label">01 / THE IDEA</p>
+      <div>
+        <h2>Share what is<br>still good.</h2>
+        <p>This student project demonstrates how a webpage could help households, cafes, and event organizers list surplus food for community groups to collect.</p>
+        <p class="notice">Demo only: the example listings are not real offers, and this page does not arrange food collection.</p>
+      </div>
+    </section>
+
+    <section id="available" class="listings">
+      <p class="section-label">02 / SAMPLE LISTINGS</p>
+      <div class="section-heading">
+        <h2>Food shared<br>with care.</h2>
+        <p>Example listings to show how surplus food information can be presented.</p>
+      </div>
+      <div class="listing-list">
+        <article class="listing">
+          <p class="tag">EXAMPLE LISTING</p>
+          <h3>Fresh fruit boxes</h3>
+          <p>Seasonal fruit, packed this morning.</p>
+          <p class="listing-detail"><strong>Quantity:</strong> 12 boxes</p>
+          <p class="listing-detail"><strong>Pickup:</strong> Sample community center</p>
+        </article>
+        <article class="listing">
+          <p class="tag">EXAMPLE LISTING</p>
+          <h3>Vegetable meals</h3>
+          <p>Prepared vegetarian meals from an event.</p>
+          <p class="listing-detail"><strong>Quantity:</strong> 20 portions</p>
+          <p class="listing-detail"><strong>Pickup:</strong> Sample college campus</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="donate" class="donate">
+      <p class="section-label">03 / DONATION ENQUIRY</p>
+      <div class="donate-copy">
+        <h2>Have surplus<br>to share?</h2>
+        <p>Enter sample details to see what a food listing form might ask for.</p>
+        <p class="notice">This form is for demonstration. It does not send or save details.</p>
+      </div>
+      <form action="#" method="get">
+        <label for="donor">Donor or organization</label>
+        <input type="text" id="donor" name="donor" required>
+
+        <label for="email">Contact email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="food">Food description</label>
+        <input type="text" id="food" name="food" placeholder="Example: fruit boxes" required>
+
+        <label for="quantity">Approximate quantity</label>
+        <input type="number" id="quantity" name="quantity" min="1" required>
+
+        <label for="pickup">Preferred pickup date</label>
+        <input type="date" id="pickup" name="pickup" required>
+
+        <button class="button" type="submit">Submit sample listing</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#top">SHARE A PLATE</a>
+    <p>Prepared by: Prithika S | CSE(AI)-C</p>
+    <p>Contact: <a href="mailto:prithika.sivakumar11@gmail.com">prithika.sivakumar11@gmail.com</a></p>
+    <p>Food Wastage Management Website · Student mini project</p>
+    <p>Sample listings are fictional examples for this project.</p>
+  </footer>
+</body>
+</html>
